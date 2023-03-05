@@ -57,7 +57,7 @@ export default function App() {
           alt=""
         />
       ) : (
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12 container mx-auto grid-cols-2 px-4">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-12 container mx-auto grid-cols-1 sm:grid-cols-2 px-10">
           {images.map((image) => (
             <ImageCard key={image.id} image={image} /> //set a unique identifier and pass  the image as props
           ))}
